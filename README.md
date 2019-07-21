@@ -138,7 +138,7 @@ const prefixCls = 'model-design';
 
 10. 渲染类函数使用render开头，比如renderTable，renderItems，renderHeader
 
-11. 事件处理类函数使用handle开头，比如handleClick，或直接使用事件命名，如refresh，save，cancle
+11. 事件处理类函数使用handle开头，比如handleClick，或直接使用事件命名，如refresh，save，cancel
 
 12. 工具函数使用get，set开头
 
