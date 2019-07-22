@@ -204,7 +204,7 @@ const classString = classNames(`${prefixCls}-form-editor`, {
 
 16. 使用[query-string](https://github.com/sindresorhus/query-string)库来处理url请求中的数据获取情况
 
-17. 当使用mobx多次调用action修改被观察值时，使用[runInAction](https://cn.mobx.js.org/refguide/action.html#runinactionname-thunk)来提交性能
+17. 引用其他文件时，不写以`jsx`等结尾的后缀，因为编译后jsx文件不存在（被编译为js）会导致找不到文件而报错，如果只有单文件，直接在index.js中开发
 
 18. 根据提供的lint处理代码，特殊情况可使用disabled跳过某些规则
 
